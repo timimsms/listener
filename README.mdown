@@ -1,0 +1,10 @@
+Run the server using:
+```
+PORT=8080 node app.js
+```
+
+Run requests with the following:
+
+```
+curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:8080
+```
